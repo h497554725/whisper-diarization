@@ -74,7 +74,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--whisper-model",
         dest="model_name",
-        default="large-v2",
+        default="large-v3",
         help="name of the Whisper model to use",
     )
 
