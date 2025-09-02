@@ -85,7 +85,7 @@ If your system has enough VRAM (>=10GB), you can use `diarize_parallel.py` inste
 
 - `-a AUDIO_FILE_NAME`: The name of the audio file to be processed
 - `--no-stem`: Disables source separation
-- `--whisper-model`: The model to be used for ASR, default is `medium.en`
+- `--whisper-model`: The model to be used for ASR, default is `large-v3` for multilingual (e.g., Chinese and English) speech
 - `--suppress_numerals`: Transcribes numbers in their pronounced letters instead of digits, improves alignment accuracy
 - `--device`: Choose which device to use, defaults to "cuda" if available
 - `--language`: Manually select language, useful if language detection failed
